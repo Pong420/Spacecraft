@@ -1,0 +1,42 @@
+{
+  "version": "1.0.0",
+  "name": "rollup__starter",
+  "description": "",
+  "author": "Pong420",
+  "license": "MIT",
+  "main": "src/index.js",
+  "output": "build",
+  "watch": {
+    "bundle": {
+      "patterns": "src",
+      "extensions": "*",
+      "quiet": true
+    },
+    "server": {
+      "patterns": "package.json",
+      "quiet": true
+    }
+  },
+  "scripts": {
+    "bundle": "rollup -c",
+    "server": "node server.js",
+    "build": "npm run static && npm run bundle",
+    "dev": "npm-watch",
+    "start": "npm run server"
+  },
+  "devDependencies": {
+    "npm-watch": "^0.1.9",
+    "rollup": "^0.52.0",
+    "rollup-plugin-buble": "^0.15.0",
+    "rollup-plugin-commonjs": "^8.2.6",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-plugin-scss": "^0.3.0",
+    "rollup-plugin-uglify": "^1.0.1"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "nanoid": "^1.0.1",
+    "qrious": "^4.0.2",
+    "socket.io": "^2.0.4"
+  }
+}

@@ -1,0 +1,25 @@
+.navigation {
+    $size: 40px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    height: $size;
+    line-height: $size;
+    color: #fff;
+    text-align: center;
+    z-index: 1000;
+    >div {
+        width: $size;
+        height: 100%;
+        opacity: .5;
+        transition: opacity .3s ease;
+        cursor: pointer;
+        float: right;
+        &:hover {
+            opacity: 1;
+        }
+    }
+    path {
+        fill: #fff;
+    }
+}
