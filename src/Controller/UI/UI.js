@@ -1,5 +1,5 @@
 import './UI.scss'
-import html from '../../Common/Html/html.js'
+import html from '../../Common/Html/Html.js'
 
 export default class UI {
 

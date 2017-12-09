@@ -1,6 +1,6 @@
 import './Ship.scss'
 import Vector2 from '../../../Common/Vector2/Vector2.js';
-import html from '../../../Common/Html/html.js'
+import html from '../../../Common/Html/Html.js'
 
 export default class Ship {
 

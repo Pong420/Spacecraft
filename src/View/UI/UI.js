@@ -1,5 +1,5 @@
 import './Ui.scss';
-import html from '../../Common/Html/html.js'
+import html from '../../Common/Html/Html.js'
 import QRious from 'qrious'
 
 export default class ViewUI {

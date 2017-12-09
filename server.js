@@ -156,8 +156,6 @@ app.use('/controller/:room/', function (req, res) {
 });
 
 
-
-
 http.listen(process.env.PORT || 8080, function () {
-    console.log('listening on *:3000');
+    console.log('listening on *:' + (process.env.PORT || 8080));
 });
