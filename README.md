@@ -10,7 +10,7 @@ npm install
 npm run dev
 ```
 
-Open ```http://localhost:8080``` and click on the QRCode icon at the upper right conner
+Open ```http://localhost:8080``` and click on the QRCode icon at the upper right corner
 <img src="qrcode.png" width=100%>
 
 Then click on the larger QRCode to access the controller (controller only available for touchable device)
