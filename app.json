@@ -1,0 +1,6 @@
+{
+    "name": "Spacecraft",
+    "description": "a simple socket.io game prototype",
+    "repository": "https://github.com/Pong420/Spacecraft",
+    "keywords": ["socket.io"]
+}
