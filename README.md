@@ -13,10 +13,6 @@ npm run dev
 Open ```http://localhost:8080``` and click on the QRCode icon at the upper right corner
 <img src="qrcode.png" width=100%>
 
-Then click on the larger QRCode to access the controller (controller only available for touchable device)
-
-OR 
-
 Edit the url under QRcode, replace 'localhost' with your desktop IP address assigned by the router ( [How can I access my localhost from my Android device](https://stackoverflow.com/questions/4779963/how-can-i-access-my-localhost-from-my-android-device) ) and scan the QRCode with your mobile phone
 
 
